@@ -36,3 +36,31 @@ header p {
     font-weight: 500;
     font-size: 15px;
 }
+
+/* Feedback Section */
+h2 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.feedback {
+    margin: 150px 150px 150px 150px;
+}
+.feedback-division {
+    display: flex;
+}
+.feedback-desp {
+    margin:200px 60px 0 100px;
+}
+.feedback-desp p {
+    color: #707070;
+}
+
+ul li::marker {
+    content: '✓';
+    color: green;
+}
+li {
+    margin:10px 0px;
+    color: #707070;
+}

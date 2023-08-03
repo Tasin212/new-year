@@ -85,3 +85,25 @@ li {
     margin-top: 15px;
     margin-bottom: 15px;
 }
+
+/* Micro Banner section */
+.micro-banner {
+    margin: 150px 150px 150px 200px;
+    background-image: linear-gradient(to left, rgba(240, 91, 34, 0), rgba(240,91,34 ,1)),
+    url('images/watch.png');;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1000px;
+    border-radius: 5px;
+}
+.micro-content {
+    padding: 50px 0 50px 50px;
+}
+.micro-content h2 {
+    color: #FFFFFF;
+}
+.second {
+    background: #FFFFFF;
+    color: #FD6E0A;
+    font-weight: bolder;
+}

@@ -107,3 +107,50 @@ li {
     color: #FD6E0A;
     font-weight: bolder;
 }
+
+/* footer sction */
+footer {
+    background-color: black;
+    color: #FFFFFF;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.footer-area {
+    display: flex;
+    width: 70%;
+    margin: auto;
+}
+.footer-area h3 {
+    font-size: 30px;
+    color: #FFFFFF;
+}
+.footer-content {
+    width: 40%;
+}
+.footer-content a{
+    text-decoration: none;
+    padding-left: 5px;
+}
+.form {
+    margin-left: 300px;
+}
+h4 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.form input {
+    margin-bottom: 10px;
+    width: 220px;
+    height: 45px;
+    border: 2px solid #707070;
+    border-radius: 5px;
+    background-color: black;
+    padding-left: 10px;
+}
+::placeholder {
+    color: #FFFFFF;
+}
+.footer-content img {
+    size: 10px;
+}
